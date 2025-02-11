@@ -1,0 +1,12 @@
+diffusers
+einops
+timm
+requests
+tqdm
+numpy
+Pillow
+matplotlib
+torch
+torchvision
+accelerate
+python-dotenv
