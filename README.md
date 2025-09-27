@@ -59,14 +59,14 @@ The **Encoder** program will generate **70,000 latents** and save them in the **
 project_root/				# == Unconditional-Latent-Diffusion-Models ==
 ├── *dataset/				# Stores the original images dataset for encoding.
 │  └── ffhq256/				# Contains the image files with .png extension.
-├── *data/				# Stores the encoded latents dataset for training.
+├── *data/					# Stores the encoded latents dataset for training.
 │  └── ffhq32/				# Contains the latent files with .npy extension.
 ├── *outputs/				# Stores the outputs of training and sampling.
 │  ├── Checkpoints/			# Saved model checkpoints during training.
-│  ├── TrainingSamples/			# Generated image samples during training.
-│  └── GeneratedSamples/		# Generated image samples after training.
-├── *logs/				# Stores training log files with .txt extension.
-├── models/				# Contains diffusion model architecture files.
+│  ├── TrainingSamples/		# Generated image samples during training.
+│  └── GeneratedSamples/	# Generated image samples after training.
+├── *logs/					# Stores training log files with .txt extension.
+├── models/					# Contains diffusion model architecture files.
 │  ├── __init__.py			# Makes the models/ folder a Python package.
 │  ├── dit.py				# Diffusion Transformer model implementation.
 │  └── unet.py				# Diffusion Unet and HuggingFace Unet models.
@@ -74,15 +74,15 @@ project_root/				# == Unconditional-Latent-Diffusion-Models ==
 │  ├── __init__.py			# Makes the samplers/ folder a Python package.
 │  ├── ddim.py				# Implementation of the DDIM sampling method.
 │  └── cold.py				# Implementation of the Cold Diffusion sampler.
-├── utils/				# Contains utility scripts for common functions.
+├── utils/					# Contains utility scripts for common functions.
 │  ├── __init__.py			# Makes the utils/ folder a Python package.
 │  ├── config.py			# Loads environment variables for central usage.
 │  ├── zipper.py			# Handles zipping the encoded latent dataset files.
 │  ├── unzipper.py			# Handles unzipping the downloaded archive files.
-│  ├── downloader.py			# Handles dataset/pretrained model downloading.
-│  ├── setup_utils.py			# Device configuration and random seed management.
-│  ├── file_utils.py			# Directory and file management utilities.
-│  ├── checkpoint.py			# Functions for saving/loading checkpoints.
+│  ├── downloader.py		# Handles dataset/pretrained model downloading.
+│  ├── setup_utils.py		# Device configuration and random seed management.
+│  ├── file_utils.py		# Directory and file management utilities.
+│  ├── checkpoint.py		# Functions for saving/loading checkpoints.
 │  └── dataset.py			# Dataset loading and preprocessing utilities.
 ├── operations/				# Contains both training and sampling scripts.
 │  ├── __init__.py			# Makes the operations/ folder a Python package.
@@ -90,9 +90,9 @@ project_root/				# == Unconditional-Latent-Diffusion-Models ==
 │  ├── trainer.py			# Main training function for latent diffusion models.
 │  └── sampler.py			# Main sampling function for latent diffusion models.
 ├── README.md				# Project description and instructions.
-├── requirements.txt			# Dependencies required for the project.
+├── requirements.txt		# Dependencies required for the project.
 ├── setup.sh				# Script for setup before running the program.
-├── .env				# Environment variables configuration file.
+├── .env					# Environment variables configuration file.
 ├── encode.py				# Main program to run the dataset encoder function.
 ├── train.py				# Main program to run the model trainer function.
 └── sample.py				# Main program to run the image sampler function.
