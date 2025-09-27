@@ -1,6 +1,12 @@
 # Latent Diffusion Models for Unconditional Image Generation
 
-![Model](https://img.shields.io/badge/Model-Diffusion-orange) ![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.12-blue)
+![Model](https://img.shields.io/badge/Model-Diffusion-brown?logo=pytorch&logoColor=orange)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
+[![License](https://img.shields.io/badge/License-MIT-yellow?logo=opensourceinitiative&logoColor=white)](LICENSE)
+![Status](https://img.shields.io/badge/Status-Complete-success?logo=checkmarx&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-February%202025-orange?logo=github&logoColor=white)
+
+**Tags:** `Latent Diffusion`, `Unconditional Generation`, `Image Synthesis`, `U-Net`, `DiT`, `Diffusion Transformer`, `DDPM`, `DDIM`, `Cold Diffusion`, `Cosine Scheduling`, `VAE Encoder`, `FFHQ Dataset`, `PyTorch`, `Hugging Face`, `Computer Vision`, `Generative AI`, `Deep Learning`, `Python`
 
 Training three different latent diffusion models unconditionally with two distinct noise scheduling techniques and sampling images from the pretrained models.
 
